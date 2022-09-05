@@ -91,7 +91,27 @@ button {
   color: #666;
 }
 
+#quote {
+  display: flex;
+  padding: 120px;
+  background-color: #E5E7EB;
+  justify-content: center;
+}
 
+#quote p {
+  max-width: 770px;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+}
+
+#author {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1F2937;
+  text-align: right;
+}
 
 
 
@@ -101,7 +121,8 @@ button {
 
 #logo-and-links,
 #description-and-image,
-#content {
+#content,
+#quote {
   padding-right: 220px;
   padding-left: 220px;
 }
