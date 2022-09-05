@@ -50,6 +50,7 @@ footer {
 #description-and-image {
   padding: 100px;
   display: flex;
+  justify-content: space-between;
   background-color: #1F2937;
   gap: 50px;
 }
