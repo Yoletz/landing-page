@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-ul, h1, h2, p {
+ul, h1, h2, h3, p {
   margin: 0;
   padding: 0;
 }
@@ -14,9 +14,10 @@ button {
   margin: 10px 0;
   border-radius: 6px;
   color: white;
-  padding: 6px 26px;
+  padding: 8px 28px;
   border: none;
   font-weight: bold;
+  font-size: 16px;
 }
 
 #logo-and-links {
@@ -113,16 +114,43 @@ button {
   text-align: right;
 }
 
+#sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px;
+}
 
+#card {
+  padding: 40px 100px;
+  display: flex;
+  background-color: #3882F6;
+  border-radius: 8px;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
 
+#card > button {
+  border: 2px solid white;
+}
 
+#card-msg > h3 {
+  color: #E5E7EB;
+  font-size: 24px;
+}
+
+#card-msg > div {
+  color: #DDD;
+}
 
 
 
 #logo-and-links,
 #description-and-image,
 #content,
-#quote {
+#quote,
+#sign-up {
   padding-right: 220px;
   padding-left: 220px;
 }
